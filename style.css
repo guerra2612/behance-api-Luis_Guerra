@@ -1,0 +1,177 @@
+ p, body {
+    font-family: 'Vollkorn', serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: 'Lora', serif;*/
+    /*font-family: 'Crimson Text', serif;*/
+  }
+
+.luis{
+  width: 300px;
+  height: auto;
+  position: relative;
+ 
+}
+section{
+  height: 100%;
+  padding-top: 85px;
+}
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+
+.bgimg{
+  margin-top: 50px;
+  width: 100vw;
+  height: auto;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+  position: absolute;
+  margin-top: -14px;
+  margin-left: 110px;
+}
+  .home{
+    color: white !important;
+  }
+  .navbar {
+    background-color: #042745 !important;
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .collapse .navbar-collapse{
+    color: white !important;
+  }
+
+  #footer{
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+   left: 0px;
+  }
+  #footer a {
+    margin:0 20px;
+  }
+  .navbar-default .navbar-nav > li >{
+    color: white !important;
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white !important;
+  background-color: #213B5A !important;
+
+}
+
+  /*contact form styles*/
+  label, button {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Swipe 2 required styles */
+  #slider div b {
+    display:block;
+    font-weight:bold;
+    color:#14ADE5;
+    font-size:20px;
+    text-align:center;
+    margin:10px;
+    padding:100px 10px;
+    box-shadow: 0 1px #EBEBEB;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+  }
+  .swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+  }
+  .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  .swipe-wrap > div {
+    float:left;
+    width:100%;
+    position: relative;
+  }
+
+
+
+
+  #home a {text-decoration:underline;}
+  #home img {
+    max-width:60px;
+/*    padding: 5px;
+    margin:5px 10px 5px 0;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;*/
+  }
+  #home ul {
+    margin-bottom:20px;
+  }
+  .small, .small a {
+    color:#999;
+    font-size:11px;
+  }
+  h1 {
+    font-size:48px;
+  }
+  h2 {
+    font-size:30px;
+  }
+  h3 {
+    font-size:24px;
+    margin:15px 0 5px 0;
+  }
+  p {
+    font-size:16px;
+  }
+  li {
+    font-size:16px;
+  }
+  .widget-title {display:none;}
+
+  #igw_gallery_content img {
+    padding: 5px;
+    margin:5px 10px 5px 0;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+  }
+  div.clear { clear: both; }
+
+  .popup-wrapper {
+    position: relative;
+    width:72px;
+    height:72px;
+    padding: 5px;
+    margin:5px 10px 5px 0;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ccc;
+    display:block;
+    float:left;
+  }
+  .trigger {
+    position: absolute;
+    float:left;
+  }
+  .popup {
+    position: absolute;
+    display: none;
+    z-index: 50;
+    border-collapse: collapse;
+    background-color:#fff;
+    padding:5px;
+    width:65px;
+    font-size:10px;
+    text-align:center;
+  }
+  .app-wrapper, #igw_gallery_content {
+  max-width: 500px;
+}
